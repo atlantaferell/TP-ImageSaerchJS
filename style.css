@@ -97,6 +97,21 @@ form {
   display: none;
 }
 
+footer {
+  background-color: greenyellow;
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+footer .credit a {
+  color: var(--p);
+  font-weight: 700;
+}
+
+footer .credit a:hover {
+  color: var(--footer);
+}
+
 @media screen and (max-width: 768px) {
   .search-result {
     width: 45%;
